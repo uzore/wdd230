@@ -12,6 +12,7 @@ header {
   background: lightpink;
   padding: 2rem;
   grid-column: 1 / 3;
+    gap: 20px;
 }
 
 nav {
@@ -29,7 +30,8 @@ main {
 .right-sidebar {
   background: yellow;
   grid-column: 2/3;
-  padding: 1rem;
+  padding: 5rem;
+    border: 10px;
 }
 
 footer {
