@@ -371,6 +371,18 @@
         color: #ffffff;
     }
     
+    .label{
+        font-family:'Courier New', Courier, monospace;
+        font-weight:700;
+    }
+
+
+    #visits{
+        color:navy;
+        font-weight:bolder;
+        font-size: larger;
+    }
+
     footer a {
         color: #ffffff;
     }
