@@ -2,7 +2,7 @@
     body {
         max-width: 1600px;
         text-align: center;
-        font-family: Courier New, monospace, Arial, sans-serif;
+        font-family: Courier New, Good Vibes monospace, Arial, sans-serif;
         font: size 12px;
         margin: 1px;
     }
@@ -18,6 +18,34 @@
         grid-template-columns: 10px auto;
         background-color: deepskyblue;
         font-size: 20px;
+    }
+    .hero {
+        margin:10px auto;
+        position:relative;
+        border: 1px solid rgba(0,0,0,.1)
+    }
+    .hero img{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+    }
+
+    .herolabel {
+        position:absolute;
+        top:20px;
+        left:10px;
+        background:radial-gradient(#ffff, #4D5B97);
+        border:1px solid rgba(0,0,0,.75);
+        padding:1.5rem;
+        box-shadow: 0 0 3rem #fff;
+        opacity:0.75;
+    }
+    .herolabel p {
+        margin:0;
+        padding: .25rem;
+        font-weight:700;
+        font-size: 2rem;
+        font-family: "Great Vibes", serif;
     }
     
     #feedback {
@@ -276,11 +304,10 @@
     main section img {
         box-sizing: border-box;
     }
-    
+    ifrsm
     main {
-        text-align: center;
-        width: 100%;
-        overflow: hidden;
+        max-width: 100%;
+        margin: 0 auto;
     }
     
     .icon {
@@ -335,6 +362,10 @@
         color: #ffffff;
         font-size: 12px;
     }
+    iframe {
+        width:100%;
+        height:100%;
+    }
     
     footer h3 {
         color: #ffffff;
@@ -372,6 +403,12 @@
             display: row-reverse;
             padding: 20px;
         }
+        main {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+
         #hero {
             margin-top: 0;
         }
