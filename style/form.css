@@ -1,0 +1,124 @@
+#content {
+	height: 100vh;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	font-family: Roboto, Arial, sans-serif;
+}
+
+form {
+	max-width: 480px;
+	margin: 1rem;
+	border: 1px solid #bbb;
+	padding: 0.5rem;
+	background-color: #cab;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+}
+
+label {
+	text-align: right;
+	font-weight: 700;
+}
+
+input {
+	margin: 0.5em;
+	padding: 0.4em;
+	font-style: italic;
+}
+
+#hello,
+#hello:focus,
+#hello:valid {
+	background-color: #bed;
+}
+
+/*accessiblity needs other indicator*/
+#hello:invalid {
+	background-color: lightcoral;
+	border: 1px solid red;
+}
+
+#hello:valid {
+	background-color: #bed;
+	color: #000;
+}
+
+#r {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	width: 80%;
+}
+
+.ratinglabels {
+	font-size: 0.8rem;
+	margin: 0 0 1rem 1.1rem;
+}
+
+#rating {
+	color: blue;
+}
+
+input[type="radio"] {
+	display: none;
+	position: relative;
+	caret-color: rgba(0, 0, 0, 0);
+}
+
+.ratinglabels {
+	display: flex;
+	justify-content: space-around;
+width: 93%
+}
+
+.ratevalue {
+	margin: 0;
+	flex: 1 1 auto;
+}
+
+.stars {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: left;
+}
+
+.stars > label {
+	color: gold;
+	width: 30px;
+	height: 30px;
+	font-size: 2rem;
+	margin-left: 5px;
+	display: flex;
+	align-items: center;
+	caret-color: rgba(0, 0, 0, 0); /* remove blinking cursor*/
+}
+
+.stars > label:hover {
+	color: #000;
+}
+
+.stars > label::before {
+	content: "\2606";
+}
+
+.stars input:checked ~ label::before {
+	content: "\2605";
+}
+
+#task {
+	width: 25px;
+	height: 25px;
+}
+
+input[type="submit"] {
+	grid-column: 1/3;
+	margin: 1rem 2.5rem;
+	color: #222;
+	font-weight: 700;
+}
+
+#references {
+	margin: 0 2rem 0;
+	border-top: 1px solid #777;
+}

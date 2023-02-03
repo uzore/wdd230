@@ -17,7 +17,7 @@
         color: #ffffff;
         grid-template-columns: 10px auto;
         background-color: deepskyblue;
-        font-size: 20px;
+        font-size: 30px;
     }
     .hero {
         margin:10px auto;
@@ -79,12 +79,121 @@
     form {
         /* Center the form on the page */
         margin: 0 auto;
-        width: 300px;
+        width: 400px;
         /* Form outline */
         padding: 1em;
-        border: 4px solid #05061e;
+        border: 4px solid #0be2f1;
         border-radius: 1em;
     }
+
+    label {
+        text-align: right;
+        font-weight: 100px;
+    }
+    
+    input {
+        margin: 0.5em;
+        padding: 0.4em;
+        font-style: italic;
+    }
+    
+    #hello,
+    #hello:focus,
+    #hello:valid {
+        background-color: #bed;
+    }
+    
+    /*accessiblity needs other indicator*/
+    #hello:invalid {
+        background-color: rgb(248, 247, 253);
+        border: 1px solid #0be2f1;
+    }
+    
+    #hello:valid {
+        background-color: #bed;
+        color:#0be2f1;
+    }
+    
+    #r {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        width: 80%;
+    }
+    
+    .ratinglabels {
+        font-size: 0.8rem;
+        margin: 0 0 1rem 1.1rem;
+    }
+    
+    #rating {
+        color: rgb(251, 251, 252);
+    }
+    
+    input[type="radio"] {
+        display: none;
+        position: relative;
+        caret-color: rgb(20, 207, 231);
+    }
+    
+    .ratinglabels {
+        display: flex;
+        justify-content: space-around;
+        width: 40%
+    }
+    
+    .ratevalue {
+        margin: 0;
+        flex: 1 1 auto;
+    }
+    
+    .stars {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: right;
+    }
+    
+    .stars > label {
+        color: gold;
+        width: 15px;
+        height: 30px;
+        font-size: 1rem;
+        margin-left: 5px;
+        display: flex;
+        align-items: right;
+        caret-color: rgba(0, 0, 0, 0); /* remove blinking cursor*/
+    }
+    
+    .stars > label:hover {
+        color: #0be2f1;
+    }
+    
+    .stars > label::before {
+        content: "\2606";
+    }
+    
+    .stars input:checked ~ label::before {
+        content: "\2605";
+    }
+    
+    #task {
+        width: 25px;
+        height: 25px;
+    }
+    
+    input[type="submit"] {
+        grid-column: 1/3;
+        margin: 1rem 2.5rem;
+        color: #0be2f1;
+        font-weight: 200px;
+    }
+    
+    #references {
+        margin: 0 2rem 0;
+        border-top: 1px solid #777;
+    }
+    
+
+    
     
     ul {
         list-style: none;
@@ -112,20 +221,20 @@
         width: 300px;
         box-sizing: border-box;
         /* Match form field borders */
-        border: 1px solid #999;
+        border: 1px solid #0be2f1;
     }
     
     input:focus,
     textarea:focus {
         /* Additional highlight for focused elements */
-        border-color: #000;
+        border-color: #0be2f1;
     }
     
     textarea {
         /* Align multiline text fields with their labels */
         vertical-align: top;
         /* Provide space to type some text */
-        height: 5em;
+        height: 4em;
     }
     
     .button {
@@ -143,8 +252,8 @@
     .hero-btn {
         display: inline-block;
         text-decoration: none;
-        color: rgb(6, 3, 16);
-        border: 2px solid rgb(6, 3, 16);
+        color: #0be2f1;
+        border: 2px solid #0be2f1;
         padding: 12px 34px;
         background: transparent;
         position: relative;
@@ -331,6 +440,9 @@
         font-size: 12px;
     }
     
+
+
+
     .married-card,
     .rocki-card,
     .palmvakk-card,
