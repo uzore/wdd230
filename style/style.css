@@ -16,7 +16,7 @@
         display: flex;
         color: #ffffff;
         grid-template-columns: 10px auto;
-        background-color: deepskyblue;
+        background-color: rgba(10, 117, 153, 0.918);
         font-size: 20px;
     }
     .hero {
@@ -82,7 +82,7 @@
         width: 300px;
         /* Form outline */
         padding: 1em;
-        border: 4px solid #05061e;
+        border: 4px solid rgba(10, 117, 153, 0.918);
         border-radius: 1em;
     }
     
@@ -112,13 +112,13 @@
         width: 300px;
         box-sizing: border-box;
         /* Match form field borders */
-        border: 1px solid #999;
+        border: 2px solid rgba(10, 117, 153, 0.918);
     }
     
     input:focus,
     textarea:focus {
         /* Additional highlight for focused elements */
-        border-color: #000;
+        border-color: rgba(10, 117, 153, 0.918);
     }
     
     textarea {
@@ -132,6 +132,41 @@
         /* Align buttons with the text fields */
         padding-left: 90px;
         /* same size as the label elements */
+    }
+
+    #formmessage {
+        display: none;
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        background-color: #aa3333;
+        color: #fff;
+        padding: 0.5rem;
+    }
+    
+    #formmessage,
+    button {
+        grid-column: 1/3;
+    }
+    
+    #keyphrase:invalid {
+        background-color: #ffccbb;
+        animation: shaketext 500ms;
+    }
+    
+    input:valid + input::before {
+        content: "👍🏼";
+    }
+    
+    @keyframes shaketext {
+        25% {
+            transform: translateX(3px);
+        }
+        50% {
+            transform: translateX(-3px);
+        }
+        75% {
+            transform: translateX(3px);
+        }
     }
     
     button {
@@ -354,8 +389,8 @@
     
     footer {
         margin-top: 3px;
-        background-color: deepskyblue;
-        padding: 5px 5px;
+        background-color: rgba(10, 117, 153, 0.918);;
+        padding: 10px 10px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -388,7 +423,7 @@
     }
     
     footer a:hover {
-        color: rgb(98, 200, 213);
+        color: rgb(241, 244, 245);
     }
     
     h2 {
