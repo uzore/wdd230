@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 body {
     text-align: center;
-    color: white;
-    font-family:  "Roboto",sans-serif;
+    color: black;
+    font-family: Courier New, monospace, Arial, sans-serif;
     font: size 15px;
-    margin: 2px;
-    background-color: black;
+    margin: 5px;
 }
 
 #content {
-    max-width: 100%;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -27,28 +26,21 @@ header {
 }
 
 .rivers-card {
-    grid-column: 2/10;
-    grid-row: 2/6;
-    margin: 20px;
-    border-bottom: 5px solid rgba(255, 255, 255, 0.096);
+    grid-column: 2/6;
+    grid-row: 2/8;
+    margin: 2px;
+    background-color: rgb(254, 255, 255);
+    border: 5px solid rgb(79, 185, 227);
+    padding: 50px;
 }
 
 .camping-card {
-    grid-column: 2/10;
-    grid-row: 6/10;
-    margin: 20px;
-    border-bottom: 5px solid rgba(255, 255, 255, 0.096);
-}
-
-.rapids-card {
-    grid-column: 2/10;
-    grid-row: 10/14;
-    margin: 20px;
-    border-bottom: 5px solid rgba(255, 255, 255, 0.096);
-}
-.card-img {
-    text-align: center;
-    width: 100%
+    grid-column: 6/11;
+    grid-row: 2/8;
+    background-color: rgb(254, 255, 255);
+    border: 5px solid rgb(79, 185, 227);
+    margin: 1rem auto;
+    padding: 20rem;
 }
 
 main {
@@ -66,17 +58,14 @@ nav {
 .rivers-card,
 .camping-card,
 .rapids-card {
-    margin-bottom: 20px;
-    font-size: 14px;
-}
-
-a {
-    color: rgba(255, 0, 0, 0.83);
+    margin: 0px;
+    font-size: 12px;
+    padding: 80px;
 }
 
 footer {
-    margin-top: 20px;
-    background-color: black;
+    margin-top: 0px;
+    background-color: rgb(79, 185, 227);
     padding: 1px;
     align-items: left;
     color: white;
@@ -96,7 +85,8 @@ footer a:hover {
 
 h2 {
     margin: 1px;
-    color: white;
+    color: black;
+    padding: 1px;
 }
 
 h3 {
@@ -113,7 +103,7 @@ h3 {
     header {
         display: grid;
         padding: 2px;
-        background-color: black;
+        background-color: rgb(79, 185, 227);
         color: white;
     }
     
@@ -122,16 +112,14 @@ h3 {
         flex-direction: column;
     };
 
-    .card-img {
-        text-align: center;
-        width:40%;
-        border-radius: 100%;
-    }
-    
     .rivers-card,
     .camping-card,
     .rapids-card {
-        margin: 2px auto;
+        margin: auto;
         width: 100%;
+    }
+
+    footer {
+        margin: 2px;
     }
 }
