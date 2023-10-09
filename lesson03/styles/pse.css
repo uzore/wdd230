@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    color: gold;
+    background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: Roboto, helvetica, sans-serif;
+	margin: 0;
+	padding: 0.5rem;
+	font-size: larger;
+	font-weight: 700;
+}
+
+section {
+	margin: 1rem 0;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	width: 800px;
+	background-color: #eee;
+}
+
+p,
+input,
+label {
+	margin: 0.25rem;
+	padding: 0.5rem;
+}
+
+.sel::selection {
+	background-color: #000;
+	color: yellow;
+}
+
+.firstline::first-line {
+	color: tomato;
+}
+.firstletter::first-letter {
+	color: navy;
+	font-size: 2rem;
+}
+.before::before {
+	content: "🎈 ";
+}
+.after::after {
+	content: " 🌮";
+}
+
+ol {
+	list-style: numeric;
+	margin-left: 2rem;
+}
