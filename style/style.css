@@ -47,7 +47,7 @@
 
     nav ul li a{
         color: #ffffff;
-        text-decoraton: none;
+        text-decoration: none;
     }
 
     #menu li a:hover {
@@ -165,6 +165,7 @@
         margin: 0;
         color: black;
         background-color: white;
+        list-style-type: none;
     }
     
     section a{
@@ -180,6 +181,9 @@
 
     .mobile-menu ul {
         display: none;
+    }
+    .active {
+        color: yellow;
     }
     
     /* input, */
@@ -230,30 +234,29 @@
         /* z-index: -1; */
     /* } */
     /*  */
-    .home-grid {
+    main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
     
     .rivers-card {
-        grid-column: 1/8;
+        grid-column: 2/8;
         grid-row: 1/7;
-        margin: px 0;
+        margin-right: 0px;
         border-radius: 5px;
         padding: 0px;
         background-color: rgba(252, 248, 248, 1.00);
         border: 0.2px solid rgb(0, 0, 0);
     }
     
-    /* .camping-card { */
-        /* grid-column: 8/11; */
-        /* grid-row: 1/2; */
-        /* margin: 20px 0; */
-        /* border-radius: 20px; */
-        /* padding: 20px; */
-        /* background-color: rgba(252, 248, 248, 1.00); */
-        /* border: 2px solid rgb(79, 185, 227); */
-    /* } */
+    .camping-card {
+        grid-column: 8/11;
+        grid-row: 1/7;
+        margin: 0px;
+        border-radius: 5px;
+        background-color: rgba(252, 248, 248, 1.00);
+        border: 0.2px solid rgb(0, 0, 0);
+    }
     /*  */
     /* .rapids-card { */
         /* grid-column: 8/11; */
@@ -404,13 +407,9 @@
     
     @media screen and (max-width: 600px) {
         #hero,
-        .home-grid2,
-        .home-grid {
+        main {
             display: block;
             height: auto;
-        }
-        .bar1 .bar2 .bar3 {
-            float: right;
         }
 
         #hamburger-icon{

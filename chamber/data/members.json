@@ -1,0 +1,65 @@
+{
+    {
+        "companyName": "JeansTravel by Jeansvon Investments Limited",
+        "homeTown": "Abuja City",
+        "Address": "Airport road Iddo Sarki Abuja",
+        "Phone number": ["+234-80600-0650"]
+        "websiteURL": "https://uzore.github.io/wdd130/jeanstravel/home.html",
+        "membership level": "gold"
+    }
+
+    {
+        "companyName": "Novare Lugbe Shopping Cent56",
+        "homeTown": "Abuja City",
+        "Address": "Airport road Iddo Sarki Abuja",
+        "Phone number": ["+234-90600-0650"]
+        "websiteURL": "https://novare-central.com,"
+        "membershiplevel": "gold"
+    }
+
+    {
+        "companyName": "MagicLand Recreational Centre",
+        "homeTown": "Abuja City",
+        "Address": "Airport road Iddo Sarki Abuja",
+        "Phone number": ["+234-80600-0678"]
+        "websiteURL": "https://https:www.tripadvisor.com/Attraction_Review-g293825-d17388735-Reviews-Magicland_Amusement_Park-Abuja_Federal_Capital_Territory.html ",
+        "membership level": "gold"
+    }
+
+    {
+        "comapnyName": "Cosqrove Africa Estate",
+        "homeTown": "Abuja City",
+        "Address": "Airport road Iddo Sarki Abuja",
+        "Phone number": ["+234-80600-0650"]
+        "websiteURL": "https://cosgroveafrica.com/",
+        "membership level": "bronze"
+    }
+
+    {
+        "companyName": "Abuja National Stadium",
+        "homeTown": "Abuja City",
+        "Address": "Central Area Garki, Abuja",
+        "Phone number": ["+234-80600-0650"]
+        "websiteURL": "https://en.wikipedia.org/wiki/Abuja",
+        "membership level": "silver"
+    }
+
+    {
+        "companyName": "ABuja National Parker",
+        "homeTown": "Abuja City",
+        "Address": "Central Area Julius Berger, Abuja",
+        "Phone number": ["+234-80600-0650"]
+        "websiteURL": "https://julius-berger.com
+        "membership level": "silver"
+    }
+
+    {
+        "companyName": "Abuja Continental Hotel",
+        "homeTown": "Abuja City",
+        "Address": "Central Area Garki, Abuja",
+        "Phone number": ["+234-80600-0650"],
+        "websiteURL": "https://abujacontinental.com",
+        "membership level": "gold"
+    }
+
+}

@@ -1,0 +1,457 @@
+    @import url('https://fonts.googleapis.com/css2?family=Alice&family=Onest:wght@200;300&display=swap');
+    body {
+        max-width: 1600px;
+        text-align: center;
+        color:  #00021A;;
+        font-family: 'Alice', 'Onest', Courier New, monospace, Arial, sans-serif;
+        font: size 12px;
+        margin: 5px;
+    }
+    
+    #content {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .banner {
+        display: grid;
+        text-align: center;
+        color: #CDA204;
+        background-color: #00021A;
+        padding: 10px;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        background:  #CDA204;
+        text-align: center;
+        color: #00021A;
+        text-decoration: none;
+        padding: 10px;
+        justify-content: space-around;
+        transition: 0.5s;
+    }
+    
+    .mobile-menu {
+        display: none;
+    }
+
+    #menu li a:hover {
+        color: #CDA204;
+        background-color: #00021A;
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+
+    header {
+        display: grid;
+        padding: .8%;
+        grid-template-columns: 100px auto;
+        background-color: #ffffff;
+        
+    }
+    
+    #feedback {
+        background-color: antiquewhite;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: .5px;
+        /* make this element invisible until we are ready for it */
+        display: none;
+    }
+    
+    .moveDown {
+        margin-top: 3em;
+    }
+    
+    form {
+        /* Center the form on the page */
+        margin: 0 auto;
+        width: 300px;
+        /* Form outline */
+        padding: 1em;
+        border: 4px solid  #00021A;;
+        border-radius: 1em;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    form li+li {
+        margin-top: 1em;
+    }
+    
+    label {
+        /* Uniform size & alignment */
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+    }
+    
+    input,
+    textarea {
+        /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+        font: 0.7em sans-serif;
+        /* Uniform text field size */
+        width: 300px;
+        box-sizing: border-box;
+        /* Match form field borders */
+        border: 1px solid  #00021A;;
+    }
+    
+    input:focus,
+    textarea:focus {
+        /* Additional highlight for focused elements */
+        border-color: #000;
+    }
+    
+    textarea {
+        /* Align multiline text fields with their labels */
+        vertical-align: left;
+        /* Provide space to type some text */
+        height: 5em;
+    }
+    
+    .button {
+        /* Align buttons with the text fields */
+        padding-left: 90px;
+        /* same size as the label elements */
+    }
+    
+    button {
+        /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+        margin-left: .5em;
+    }
+    
+    fieldset {
+        border: 0;
+        text-align: center;
+    }
+    
+    input[type="submit"] {
+        background: rgba(16, 15, 100, 0.014);
+        border: 1rem;
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        color:  #00021A;;
+        padding: 0.7rem;
+        cursor: pointer;
+        border-color:  #00021A;;
+    }
+    
+    input {
+        background: transparent;
+        border: 0;
+        border-left: 4px solid;
+        border-color:  #00021A;;
+        padding: 10px;
+        color:  #00021A;;     
+    }
+    
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="password"]:focus {
+        outline: 0;
+        background: #ffffff;
+        border-radius: 1.2rem;
+        border-color: transparent;
+    }
+    
+    .active {
+        background-color:#00021A;
+        color:#CDA204;
+    }
+    /*Media queries */
+    
+    @media all and (max-width: 500px) {
+        #container {
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+    }
+        @media all and (min-width: 500px) and (max-width: 580px) {
+            #container {
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
+        }
+    
+    .hero-btn {
+        display: inline-block;
+        text-decoration: none;
+        color: rgb(6, 3, 16);
+        border: 2px solid rgb(6, 3, 16);
+        padding: 12px 34px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .hero-btn:hover {
+        border: 1px solid rgb(6, 3, 16);
+        background:  #CDA204;
+        transition: 1s ease;
+    }
+    
+    .home-btn {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: inline-block;
+        text-decoration: none;
+        color:  #00021A;
+        border: 2px solid #00021A;
+        padding: 5px 10px;
+        background: transparent;
+        cursor: pointer;
+    }
+    
+
+    .home-grid3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    
+    
+    .home-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr, 1fr 1fr;
+    }
+    
+    .rivers-card {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        margin: 200px 0;
+    }
+    
+    .camping-card {
+        grid-column: 5/6;
+        grid-row: 1/3;
+        margin: 1px 2px;
+    }
+    
+    .rapids-card {
+        grid-column: 8/9;
+        grid-row: 1/3;
+        margin: 1px 0;
+    }
+    
+    .home-grid2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr, 1fr 1fr 1fr 1fr;
+    }
+    
+    .rocki-card {
+        grid-column: 2/3;
+        grid-row: 4/5;
+        margin: 1px 0;
+    }
+    
+    .married-card {
+        grid-column: 5/6;
+        grid-row: 3/5;
+        margin: 1px 0;
+    }
+
+    .palmvakk-card {
+        grid-column: 8/9;
+        grid-row: 3/5;
+        margin: 1px 0;
+    }
+    
+    
+    .card-img,
+    .mountains {
+        width: 100%;
+    }
+    
+    .logo {
+        width: 70%;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    #logo_link {
+        padding-top: 5px;
+        align-self: center;
+        justify-self: center;
+    }
+    
+    
+    
+    .card-img {
+        text-align: center;
+        transition: transform .2s;
+        box-shadow: 1px 1px 1px #00021A;;
+    }
+    
+    .card-img:hover {
+        opacity: .6;
+        transform: scale(1.1)
+    }
+    
+    main section img {
+        box-sizing: border-box;
+    }
+    
+    .icon {
+        width: 60px;
+        padding-top: 5px;
+        font-size: 12px;
+    }
+    
+    
+    .married-card,
+    .rocki-card,
+    .palmvakk-card,
+    .rivers-card,
+    .camping-card,
+    .rapids-card {
+        margin: 5px;
+        font-size: 12px;
+        border-radius: 4px;
+    }
+    
+    
+    footer {
+        margin-top: 2px;
+        background-color: #00021A;
+        padding: 2px 2px 2px 2px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color:  #CDA204;
+        font-size: 12px;
+    }
+    
+    footer h3 {
+        color:  #CDA204;
+    }
+    
+    footer a {
+        color: #00021A;;
+    }
+    
+    footer a:hover {
+        color: #CDA204;
+    }
+    
+    h2 {
+        margin: 0;
+        color:  #00021A;;
+    }
+    
+    h3 {
+        color:  #00021A;;
+    }
+    
+    .social img {
+        height: 25px;
+        margin: 10px;
+        cursor: pointer;
+        padding-top: 15px;
+    }
+    
+    .social {
+        text-align: center;
+    }
+    
+    @media screen and (max-width: 600px) {
+        #hero,
+        .home-grid2,
+        .home-grid {
+            display: block;
+            height: auto;
+        }
+
+        #hamburger-icon{
+            display: block;
+            cursor: pointer;
+            color: #CDA204;
+        }
+
+        .open .bar1 {
+            -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+            transform: rotate(-45deg) translate(-6px, 6px);
+        }
+        .open .bar2 {
+            opacity: 0;
+        }
+        .open .bar3 {
+        -webkit-transform: rotate(45deg) translate(-6px, -8px);
+        transform: rotate(45deg) translate(-6px, -8px);
+        }
+
+        .open .mobile-menu {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            transition: 0.5s;
+        }
+
+        #hamburger-icon div {
+            width: 35px;
+            height: 3px;
+            background-color: #CDA204;
+            margin: 6px 0;
+            transition: 0.4;
+            width: 30px;
+        }
+
+        nav ul {
+            display: none;
+        }
+    
+        mode {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+        
+        .married-card,
+        .rocki-card,
+        .palmvakk-card,
+        .rivers-card,
+        .camping-card,
+        .rapids-card {
+            margin: 5px auto;
+            max-width: 400px;
+        }
+
+        .home-btn {
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: inline-block;
+            text-decoration: none;
+            color:  #00021A;
+            border: 2px solid  #00021A;
+            padding: 4px 8px;
+            background: transparent;
+            cursor: pointer;
+        }
+
+        
+        .home-btn:hover {
+            border: 1px solid rgb(6, 3, 16);
+            background:  #CDA204;
+            transition: 1s ease;
+
+        }
+        footer {
+            margin-top: 5px;
+            flex-direction: column;
+        }
+    }
