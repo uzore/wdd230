@@ -266,8 +266,39 @@
         grid-row: 3/5;
         margin: 1px 0;
     }
+
+    main1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+        
+    .a-card {
+        grid-column: 2/8;
+        grid-row: 3/6;
+        margin-right: 0px;
+        border-radius: 5px;
+        padding: 0px;
+        background-color: rgba(252, 248, 248, 1.00);
+        border: 0.2px solid  #00021A;
+    }
+        
+    .b-card {
+        grid-column: 8/11;
+        grid-row: 3/6;
+        margin: 0px;
+        border-radius: 5px;
+        background-color: rgba(252, 248, 248, 1.00);
+        border: 0.2px solid  #00021A;
+    }
     
-    
+    h3 {
+        background-color:  #00021A;
+        color: #CDA204;
+        padding: px;
+        justify-content: center;
+        align-items: center;
+    }
+
     .card-img,
     .mountains {
         width: 100%;
@@ -290,7 +321,7 @@
     .card-img {
         text-align: center;
         transition: transform .2s;
-        box-shadow: 1px 1px 1px #00021A;;
+        box-shadow: 1px 1px 1px #00021A;
     }
     
     .card-img:hover {
@@ -343,6 +374,7 @@
     footer a:hover {
         color: #CDA204;
     }
+
     
     h2 {
         margin: 0;
@@ -350,7 +382,7 @@
     }
     
     h3 {
-        color:  #00021A;;
+       color: #CDA204;
     }
     
     .social img {
@@ -364,8 +396,9 @@
         text-align: center;
     }
     
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 680px) {
         #hero,
+        main1,
         .home-grid2,
         .home-grid {
             display: block;
