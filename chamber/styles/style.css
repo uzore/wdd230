@@ -290,7 +290,24 @@
         background-color: rgba(252, 248, 248, 1.00);
         border: 0.2px solid  #00021A;
     }
-    
+
+    main2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .c-card {
+        grid-column: 1/11;
+        grid-row: 8/10;
+        margin: 0px;
+        border-radius: 5px;
+        background-color: rgba(252, 248, 248, 1.00);
+        border: 0.2px solid #00021A;
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
     h3 {
         background-color:  #00021A;
         color: #CDA204;
@@ -395,96 +412,99 @@
     .social {
         text-align: center;
     }
-    
-    @media screen and (max-width: 680px) {
-        #hero,
-        main1,
-        .home-grid2,
-        .home-grid {
-            display: block;
-            height: auto;
-        }
 
-        #hamburger-icon{
-            display: block;
-            cursor: pointer;
-            color: #CDA204;
-        }
+@media screen and (max-width: 680px) {
+    #hero,
+    main1,
+    main2,
+    .home-grid2,
+    .home-grid {
+        display: block;
+        height: auto;
+    }
 
-        .open .bar1 {
-            -webkit-transform: rotate(-45deg) translate(-6px, 6px);
-            transform: rotate(-45deg) translate(-6px, 6px);
-        }
-        .open .bar2 {
-            opacity: 0;
-        }
-        .open .bar3 {
+    #hamburger-icon {
+        display: block;
+        cursor: pointer;
+        color: #CDA204;
+    }
+
+    .open .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+        transform: rotate(-45deg) translate(-6px, 6px);
+    }
+
+    .open .bar2 {
+        opacity: 0;
+    }
+
+    .open .bar3 {
         -webkit-transform: rotate(45deg) translate(-6px, -8px);
         transform: rotate(45deg) translate(-6px, -8px);
-        }
+    }
 
-        .open .mobile-menu {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            transition: 0.5s;
-        }
+    .open .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        transition: 0.5s;
+    }
 
-        #hamburger-icon div {
-            width: 35px;
-            height: 3px;
-            background-color: #CDA204;
-            margin: 6px 0;
-            transition: 0.4;
-            width: 30px;
-        }
+    #hamburger-icon div {
+        width: 35px;
+        height: 3px;
+        background-color: #CDA204;
+        margin: 6px 0;
+        transition: 0.4;
+        width: 30px;
+    }
 
-        nav ul {
-            display: none;
-        }
-    
-        mode {
-            position: absolute;
-            top: 1rem;
-            right: 1rem;
-            font-size: 2rem;
-            cursor: pointer;
-        }
+    nav ul {
+        display: none;
+    }
 
-        
-        .married-card,
-        .rocki-card,
-        .palmvakk-card,
-        .rivers-card,
-        .camping-card,
-        .rapids-card {
-            margin: 5px auto;
-            max-width: 400px;
-        }
+    mode {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 2rem;
+        cursor: pointer;
+    }
 
-        .home-btn {
-            position: absolute;
-            top: 35%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            display: inline-block;
-            text-decoration: none;
-            color:  #00021A;
-            border: 2px solid  #00021A;
-            padding: 4px 8px;
-            background: transparent;
-            cursor: pointer;
-        }
 
-        
+    .married-card,
+    .rocki-card,
+    .palmvakk-card,
+    .rivers-card,
+    .camping-card,
+    .rapids-card {
+        margin: 5px auto;
+        max-width: 400px;
+    }
+
+    .home-btn {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: inline-block;
+        text-decoration: none;
+        color: #00021A;
+        border: 2px solid #00021A;
+        padding: 4px 8px;
+        background: transparent;
+        cursor: pointer;
+    }
+
+
         .home-btn:hover {
             border: 1px solid rgb(6, 3, 16);
-            background:  #CDA204;
+            background: #CDA204;
             transition: 1s ease;
+        }
 
-        }
-        footer {
-            margin-top: 5px;
-            flex-direction: column;
-        }
+    footer {
+        margin-top: 5px;
+        flex-direction: column;
     }
+}
