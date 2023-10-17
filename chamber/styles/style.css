@@ -186,8 +186,8 @@
     .hero-btn {
         display: inline-block;
         text-decoration: none;
-        color: rgb(6, 3, 16);
-        border: 2px solid rgb(6, 3, 16);
+        color: #CDA204;
+        border: 2px solid #CDA204;
         padding: 12px 34px;
         background: transparent;
         position: relative;
@@ -196,7 +196,7 @@
     
     .hero-btn:hover {
         border: 1px solid rgb(6, 3, 16);
-        background:  #CDA204;
+        background:   #00021A;
         transition: 1s ease;
     }
     
@@ -207,8 +207,8 @@
         transform: translate(-50%, -50%);
         display: inline-block;
         text-decoration: none;
-        color:  #00021A;
-        border: 2px solid #00021A;
+        color:  #CDA204;
+        border: 2px solid #CDA204;;
         padding: 5px 10px;
         background: transparent;
         cursor: pointer;
@@ -311,7 +311,7 @@
     h3 {
         background-color:  #00021A;
         color: #CDA204;
-        padding: px;
+        padding: 10px;
         justify-content: center;
         align-items: center;
     }
@@ -333,8 +333,14 @@
         justify-self: center;
     }
     
-    
-    
+    #mode {
+        position: absolute;
+        top: 3.5rem;
+        right: 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
     .card-img {
         text-align: center;
         transition: transform .2s;
@@ -395,7 +401,7 @@
     
     h2 {
         margin: 0;
-        color:  #00021A;;
+        color:  #CDA204;
     }
     
     h3 {
@@ -463,11 +469,11 @@
         display: none;
     }
 
-    mode {
+    #mode {
         position: absolute;
-        top: 1rem;
+        top: 3.5rem;
         right: 1rem;
-        font-size: 2rem;
+        font-size: 1rem;
         cursor: pointer;
     }
 
@@ -489,8 +495,8 @@
         transform: translate(-50%, -50%);
         display: inline-block;
         text-decoration: none;
-        color: #00021A;
-        border: 2px solid #00021A;
+        color: #CDA204;
+        border: 2px solid #CDA204;
         padding: 4px 8px;
         background: transparent;
         cursor: pointer;
@@ -499,7 +505,7 @@
 
         .home-btn:hover {
             border: 1px solid rgb(6, 3, 16);
-            background: #CDA204;
+            background:  #00021A;
             transition: 1s ease;
         }
 
