@@ -26,7 +26,7 @@
         display: grid;
         color: #ffffff;
         text-align: justify;
-        background-color: rgba(10, 117, 153, 0.918);
+        background-color:  #0892b4
     }
 
     header h1 {
@@ -52,101 +52,44 @@
 
     #menu li a:hover {
         color: black;
-        background-color: rgba(10, 117, 153, 0.918);
+        background-color:  #0892b4;
         transform: scale(1.1);
         transition: 0.3s;
     }
 
-    /* .hero { */
-        /* margin: 10px auto; */
-        /* position: relative; */
-        /* border: 1px solid rgba(0, 0, 0, .1) */
-    /* } */
-/*      */
-    /* .hero img { */
-        /* width: 100%; */
-        /* height: 100%; */
-        /* object-fit: cover; */
-    /* } */
-    
-    /* .herolabel { */
-        /* position: absolute; */
-        /* top: 20px; */
-        /* left: 10px; */
-        /* background: radial-gradient(#ffff, #4D5B97); */
-        /* border: 1px solid rgba(0, 0, 0, .75); */
-        /* padding: 1.5rem; */
-        /* box-shadow: 0 0 3rem #fff; */
-        /* opacity: 0.75; */
-    /* } */
-    
-    /* .herolabel p { */
-        /* margin: 0; */
-        /* padding: .25rem; */
-        /* font-weight: 700; */
-        /* font-size: 2rem; */
-        /* font-family: "Great Vibes", serif; */
-    /* } */
-    /*  */
-    /* #feedback { */
-        /* background-color: antiquewhite; */
-        /* position: absolute; */
-        /* top: 0; */
-        /* left: 0; */
-        /* right: 0; */
-        /* padding: .5px; */
-        /* display: none; */
-    /* } */
-    
-    /* .moveDown { */
-        /* margin-top: 3em; */
-    /* } */
-    /*  */
-    /* .home-title { */
-        /* font-family: 'Rock Salt', 'Roboto', 'Bradley', sans-serif; */
-        /* font-size: 2.5em; */
-        /* margin-top: 200px; */
-        /* color: #8d541b; */
-    /* } */
-    /*  */
-    #hero {
-        display: grid;
-        grid-template-columns: 1fr 3fr 1fr;
-        margin-top: -100px;
+    main1 {
+        max-width: 670px;
+        margin: 0 auto;
     }
-    
-    
-    /* .hero-btn { */
-        /* display: inline-block; */
-        /* text-decoration: none; */
-        /* color: rgb(6, 3, 16); */
-        /* border: 2px solid rgb(6, 3, 16); */
-        /* padding: 12px 34px; */
-        /* background: transparent; */
-        /* position: relative; */
-        /* cursor: pointer; */
-    /* } */
-/*      */
-    /* .hero-btn:hover { */
-        /* border: 1px solid rgb(6, 3, 16); */
-        /* background: rgb(252, 197, 18); */
-        /* transition: 1s ease; */
-    /* } */
-/*      */
-    /* .home-btn { */
-        /* position: absolute; */
-        /* top: 50%; */
-        /* left: 50%; */
-        /* transform: translate(-50%, -50%); */
-        /* display: inline-block; */
-        /* text-decoration: none; */
-        /* color: rgb(6, 3, 16); */
-        /* border: 2px solid rgb(6, 3, 16); */
-        /* padding: 12px 34px; */
-        /* background: transparent; */
-        /* cursor: pointer; */
-    /* } */
-    
+
+    .hero {
+        margin: 10px auto;
+        position: relative;
+        border: 1px solid rgba(0, 0, 0, .1)
+    }
+    .hero img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .herolabel {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        background: radial-gradient(#ffff,  #0892b4);
+        border: 1px solid rgba(0, 0, 0, .75);
+        padding: 1.5rem;
+        box-shadow: 0 0 3rem #fff;
+        opacity: 0.75;
+    }
+    /*  */
+    .herolabel p {
+        margin: 0;
+        padding: .25rem;
+        font-weight: 700;
+        font-size: 2rem;
+        font-family: "Great Vibes", serif;
+    }
     form {
         /* Center the form on the page */
         margin: 0 auto;
@@ -155,7 +98,7 @@
         padding: 1em;
         border-radius: 1em;
         margin: 1rem;
-        border: 1px solid #0892b4
+        border: 1px solid #0892b4;
     }
     
     section ul{
@@ -209,31 +152,7 @@
         vertical-align: left;
         /* Provide space to type some text */
         height: 5em;
-    }
-    
-    
-    /* .home-btn:hover { */
-        /* border: 1px solid rgb(6, 3, 16); */
-        /* background: rgb(252, 197, 18); */
-        /* transition: 1s ease; */
-    /* } */
-    /*  */
-    /* #hero-msg h4 { */
-        /* color: #f7f4f0; */
-    /* } */
-    /*  */
-    /* #hero-msg { */
-        /* grid-column: 1/4; */
-        /* grid-row: 1/3; */
-        /* margin-top: 100px; */
-    /* } */
-    /*  */
-    /* #hero-box { */
-        /* grid-column: 1/4; */
-        /* grid-row: 2/4; */
-        /* z-index: -1; */
-    /* } */
-    /*  */
+    }    
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -257,72 +176,10 @@
         background-color: rgba(252, 248, 248, 1.00);
         border: 0.2px solid rgb(0, 0, 0);
     }
-    /*  */
-    /* .rapids-card { */
-        /* grid-column: 8/11; */
-        /* grid-row: 3/3; */
-        /* margin: 20px 0; */
-        /* border-radius: 20px; */
-        /* padding: 20px; */
-        /* background-color: rgba(252, 248, 248, 1.00); */
-        /* border: 2px solid rgb(79, 185, 227); */
-    /* } */
-    
-    /* .home-grid2 { */
-        /* display: grid; */
-        /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr, 1fr; */
-    /* } */
-    
-    /* .rocki-card { */
-        /* grid-column: 1/3; */
-        /* grid-row: 4/5; */
-        /* margin: 1px 0; */
-    /* } */
-/*      */
-    /* .married-card { */
-        /* grid-column: 4/6; */
-        /* grid-row: 3/5; */
-        /* margin: 1px 0; */
-    /* } */
-/*      */
-    /* .palmvakk-card { */
-        /* grid-column: 7/9; */
-        /* grid-row: 3/5; */
-        /* margin: 1px 0; */
-    /* } */
-/*      */
-    /* .mountains { */
-        /* width: 100; */
-        /* grid-column: 2/7; */
-        /* grid-row: 5/8; */
-        /* box-shadow: 5px 5px 10px #8d541b; */
-    /* } */
-/*      */
-    /* .card-img, */
-    /* .mountains { */
-        /* width: 100%; */
-    /* } */
-/*      */
-    
-    /* .card-img { */
-        /* text-align: center; */
-        /* border: 5px solid #05061e; */
-        /* transition: transform .5s; */
-        /* box-shadow: 5px 5px 10px#0f1392; */
-    /* } */
-/*      */
+
     .card-img:hover {
         opacity: .6;
         transform: scale(1.1)
-    }
-    
-    main section img {
-        box-sizing: border-box;
-    }
-    
-    main {
-        max-width: 100%;
-        margin: 0 auto;
     }
     
     .icon {
@@ -330,23 +187,7 @@
         padding-top: 5px;
         font-size: 12px;
     }
-    /* #menu{ */
-        /* display: grid; */
-    /* } */
 
-    /* #menu ul li a { */
-        /* display: flex; */
-        /* background: black; */
-        /* color:#ffffff; */
-        /* padding: 15px; */
-        /* font-size: 15px; */
-        /* text-decoration: none; */
-    /* } */
-    /*  */
-    /* #menu ul li a:hover { */
-        /* background-color: rgba(10, 117, 153, 0.918); */
-        /* color: #000000; */
-    /* } */
     
     .married-card,
     .rocki-card,
@@ -360,7 +201,7 @@
     
     footer {
         margin-top: 3px;
-        background-color: rgba(10, 117, 153, 0.918);
+        background-color:  #0892b4;
         padding: 10px 10px;
         display: flex;
         justify-content: center;
@@ -392,7 +233,7 @@
     }
     
     h3 {
-        background-color: rgba(10, 117, 153, 0.918);
+        background-color:  #0892b4;
         color: #ffffff;
         padding: 10px;
         justify-content: center;
@@ -455,7 +296,7 @@
         }
 
         a:hover {
-            background-color: rgba(10, 117, 153, 0.918);
+            background-color:  #0892b4;
         }
 
         main {

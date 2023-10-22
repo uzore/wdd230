@@ -503,11 +503,11 @@
     }
 
 
-        .home-btn:hover {
-            border: 1px solid rgb(6, 3, 16);
-            background:  #00021A;
-            transition: 1s ease;
-        }
+    .home-btn:hover {
+        border: 1px solid rgb(6, 3, 16);
+        background:  #00021A;
+        transition: 1s ease;
+    }
 
     footer {
         margin-top: 5px;
