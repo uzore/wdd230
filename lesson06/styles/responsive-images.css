@@ -1,0 +1,28 @@
+    @import url('https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap');
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        max-width: 1600px;
+        text-align: center;
+        font-family: Onest, Courier New, Good Vibes monospace, Arial, sans-serif;
+        font: size 12px;
+        margin: 1px;
+    }
+    
+    #content {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+
+    @media screen and (max-width: 600px) {
+        footer {
+            padding: 10px;
+            flex-direction: column;
+        }
+    }
