@@ -8,11 +8,11 @@ const body = document.querySelector("body");
 modeButton.addEventListener("click", () => {
 	if (modeButton.textContent.includes("☑️")) {
 		body.style.background = "#00021A";
-		body.style.color = "#ffff";
+		body.style.color = "#CDA204";
         modeButton.textContent = "❎";
 	} else {
 		body.style.background = "#eeee";
-		body.style.color = "#00000";
+		body.style.color = "#00021A";
 		modeButton.textContent = "☑️";
 	}
 });
