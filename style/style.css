@@ -17,22 +17,25 @@
     }
     
     .logo {
-        width: 15%;
+        width: 10%;
         padding-left: 30px;
         padding-top: 30px;
+        padding-bottom: 30px;
+        
     }
 
     header {
-        display: grid;
+        display: flex;
+	    flex-flow: row wrap;
+	    align-items: center;
         color: #ffffff;
-        text-align: justify;
-        background-color:  #0892b4
+        background-color:  #0892b4;
     }
 
     header h1 {
         text-align: center;
         color: white;
-        font-size: 15px;
+        padding-left: 20%;
     }
     nav ul  {
         display: flex;
@@ -122,6 +125,12 @@
         text-align: right;
     }
 
+    .visits {
+        color: #0892b4;
+        font-weight: bolder;
+        font-size: larger;
+    }
+
     .mobile-menu ul {
         display: none;
     }
@@ -182,11 +191,6 @@
         transform: scale(1.1)
     }
     
-    .icon {
-        width: 60px;
-        padding-top: 5px;
-        font-size: 12px;
-    }
 
     
     .married-card,
@@ -209,6 +213,7 @@
         color: #ffffff;
         font-size: 12px;
     }
+
     
     iframe {
         width: 100%;

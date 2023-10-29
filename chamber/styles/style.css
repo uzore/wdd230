@@ -73,6 +73,7 @@
         background-color: #00021A;
         transform: scale(1.1);
         transition: 0.3s;
+        text-decoration: none;
     }
 
     header {
@@ -112,6 +113,7 @@
         list-style: none;
         padding: 0;
         margin: 0;
+        text-decoration: none;
     }
     
     form li+li {
@@ -341,6 +343,121 @@
         border: 0.2px solid #00021A;
     }
 
+    mains {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+        
+    .d1-card {
+        grid-column: 2/6;
+        grid-row: 1/3;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: rgba(252, 248, 248, 1.00);
+    }
+        
+    .d2-card {
+        grid-column: 6/11;
+        grid-row: 1/3;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: rgba(252, 248, 248, 1.00);
+    }
+    .d3-card {
+        grid-column: 2/6;
+        grid-row: 3/5;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: rgba(252, 248, 248, 1.00);
+    }
+        
+    .d4-card {
+        grid-column: 6/11;
+        grid-row: 3/5;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: rgba(252, 248, 248, 1.00);
+    
+    }
+
+    .d5-card {
+        grid-column: 2/6;
+        grid-row: 5/7;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: rgba(252, 248, 248, 1.00);
+    }
+        
+    .d6-card {
+        grid-column: 6/11;
+        grid-row: 5/7;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: rgba(252, 248, 248, 1.00);
+    
+    }
+
+    .d7-card {
+        grid-column: 2/6;
+        grid-row: 7/10;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: rgba(252, 248, 248, 1.00);
+    }
+        
+    .d8-card {
+        grid-column: 6/11;
+        grid-row: 7/10;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: rgba(252, 248, 248, 1.00);
+    }
+    .d9-card {
+        grid-column: 2/6;
+        grid-row: 10/12;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: rgba(252, 248, 248, 1.00);
+    }
+        
+    .d10-card {
+        grid-column: 6/11;
+        grid-row: 10/12;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: rgba(252, 248, 248, 1.00);
+        
+    }
+    .d11-card {
+        grid-column: 2/6;
+        grid-row: 12/14;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: rgba(252, 248, 248, 1.00);
+    }
+        
+    .d12-card {
+        grid-column: 6/11;
+        grid-row: 12/14;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: rgba(252, 248, 248, 1.00);
+        
+    }
+
+
     iframe {
         width: 100%;
         height: 100%;
@@ -351,6 +468,11 @@
         padding: 10px;
         justify-content: center;
         align-items: center;
+    }
+    .visits {
+        color: #CDA204;
+        font-weight: bolder;
+        font-size: larger;
     }
 
     .card-img,
@@ -460,6 +582,7 @@
     #hero,
     main1,
     main2,
+    mains,
     .home-grid2,
     .home-grid {
         display: block;

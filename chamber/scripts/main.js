@@ -16,3 +16,29 @@ modeButton.addEventListener("click", () => {
 		modeButton.textContent = "☑️";
 	}
 });
+
+//Initialize display elements
+const visitsDisplay = document.querySelector(" .visits");
+
+//get the stored value in localStorage
+let noVisits = Number(window.localStorage.getItem("visits-ls"));
+
+//Determine if this is the first visit or display the number of visibility: 
+if (noVisits === 0){
+    // visitsDisplay.textContent = noVisits;
+	visitsDisplay.textContent = "Back so soon! Awesome!";
+} else if (noVisits === 1){
+	visitsDisplay.textContent = "You visited 1 day ago.";
+} else if (noVisits > 1) {
+	visitsDisplay.textContent = noVisits;
+}
+else {
+    visitsDisplay.textContent = "Welcome! Let's know if you have any questions";
+}
+
+//Increment the number of visits.
+noVisits++;
+
+//Store the new number of visits.
+localStorage.setItem("visits-ls", noVisits);
+
