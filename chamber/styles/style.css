@@ -20,6 +20,7 @@
         padding: 10px;
     }
 
+
     maine {
         max-width: 670px;
         margin: 0 auto;
@@ -52,13 +53,17 @@
         font-size: 2rem;
         font-family: "Great Vibes", serif;
     }
+
+    #menu nav ul li a{
+        color: #ffffff;
+        text-decoration: none;
+    }
     nav ul {
         display: flex;
         flex-direction: row;
         background:  #CDA204;
         text-align: center;
         color: #00021A;
-        text-decoration: none;
         padding: 10px;
         justify-content: space-around;
         transition: 0.5s;
@@ -113,7 +118,7 @@
         list-style: none;
         padding: 0;
         margin: 0;
-        text-decoration: none;
+        text-decoration-line: none;
     }
     
     form li+li {

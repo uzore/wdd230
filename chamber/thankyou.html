@@ -5,37 +5,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <meta name="description" content="Abuja Chamber of Commerce, a link to the business community in the capital of Nigeria">
+    <meta name="author" content="Nnachi, Joseph Otu">
+    <meta property="og:url"                content="https://uzore.github.io/chamber/index.html/" />
+    <meta property="og:title"              content="Abuja Chamber of Commerce International" />
+    <meta property="og:description"        content="Abuja Chamber of Commerce, a link to the business in the capital of Nigeria" />
+    <meta property="og:image"              content="https://uzore.github.io/chamber/index.html/chamber/images/joe.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Onest:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
     <link rel="stylesheet" href="styles/normalize.css">
 
     <link href="images/ico.png" rel="icon">
 
 
-    <title> Home - ACCI Nigeria </title>
+    <title> Abuja Chamber of Commerce </title>
 </head>
 
 <body class="logged-in env-production page-responsive" style="word-wrap: break-word;" data-new-gr-c-s-loaded="14.1062.0> 
-            <div id= "content">
-                <header>
-                    <a id="logo link " href="index.html ">
-                    <img class="logo " src="images/logo.png " alt=" Logo " >
-                    <nav class="navigation">
-                            <a id="menu" href="#"></a>
-                            <a href="index.html">HOME</a>
-                            <a href="discovery.html">DISCOVER</a>
-                            <a href="chamber-site-plan.html ">Site Plan</a>
-                            <a href="dir.html ">DIRECTORY</a>
-                            <a href="join.html"> JOIN </a>
-                    </nav>
-                </header 
+    <div id="content">
+
+        <div class="banner">
+            ...Always Open to Business!!
+        </div>
+        <header>
+            <a id="logo link " href="index.html ">
+                <img class="logo " src="images/logo.png " alt=" Logo ">
+        </header>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html" class="active"> Home </a></li>
+                <li><a href="discover.html"> Discovery </a></li>
+                <li><a href="chamber-site-plan.html "> Site Plan </a></li>
+                <li><a href="dir.html "> Directory </a></li>
+                <li><a href="join.html"><button>JOIN</button></a></li>
+            </ul>
+            <div id="hamburger-icon" onClick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="index.html" class="active"> Home </a></li>
+                    <li><a href="discover.html"> Discovery </a></li>
+                    <li><a href="chamber-site-plan.html"> Site Plan</a></li>
+                    <li><a href="dir.html"> Directory </a></li>
+                    <li><a href="join.html"><button> JOIN </button></a></li>
+                </ul>
             </div>
-            <main class="home-grid ">
-                <section class="rivers-card1 ">          
-                     
-                    <h1>THANK YOU!!</h1>
-                </section>
-            </main>
-            
+        </nav>
+        <m>
+            <br>
+            <br>
+            <br>
+            <h2>Membership Sign Up</h2>
+            <p>Thanks! for applying to become a member of the Abuja Chamber of Commerce. We will get back to you
+                within a week with a response.</p>
+        </m>
+        <footer>
+            <br>
+            <P>
+                &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> Abuja Chamber of Commerce <br>KM 8 Umaru Musa Yar'Adua Road, Abuja Nigeria
+            </P>
+
+            <div class="social ">
+                <a href="https://twitter.com "><img src="images/twitter.png " alt="twitter icon "> </a>
+                <a href="https://instagram.com "><img src="images/insta.png " alt="instagram icon "> </a>
+                <p>.:|:. Joseph .N.O .:|:.
+                <p id="demo">
+                    Last Modified:
+                    <script>
+                        const date = new Date(document.lastModified);
+                        document.getElementById("demo").innerHTML = date;
+                    </script>
+                </p>
+            </div>
+        </footer>
+        <script src="scripts/main.js"></script>
+        <script src="scripts/weather.js"></script>
+</body>
 </body>
 
 </html>

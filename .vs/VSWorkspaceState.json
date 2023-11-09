@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\chamber",
-    "\\chamber\\styles",
+    "\\chamber\\scripts",
     "\\style"
   ],
-  "SelectedNode": "\\style\\style.css",
+  "SelectedNode": "\\chamber\\scripts\\main.js",
   "PreviewInSolutionExplorer": false
 }

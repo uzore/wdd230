@@ -74,7 +74,7 @@
     }
     form{
         margin: 0 auto;
-        width: 400px;
+        width: 600px;
         border: 1px solid  #0892b4;
         padding-left: 15px;
         padding-right: 15px;
@@ -109,26 +109,6 @@
         max-width: 80%;
         background-color: #0892b413;
     }
-
-    #passwordMismatchMessage {
-        color: red;
-        display: none;
-    }
-    
-    form label.pr input{
-        display: block;
-        padding-top: 1rem;
-        font-size: .8rem;
-        padding: .75rem;
-    }
-
-
-    #pageRating{
-        display: block;
-        margin-top: 10px;
-        text-align: center;
-    }
-            
             
     form label.sbs{
         display: block;
@@ -278,7 +258,7 @@
             max-width: 80%;
             background-color: #0892b413;
         }
-
+        
         form label.sbs{
             display: block;
             padding: .75rem 0;

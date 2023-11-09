@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,107 +8,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Abuja Chamber of Commerce, a link to the business community in the capital of Nigeria">
     <meta name="author" content="Nnachi, Joseph Otu">
-    <meta property="og:url"                content="https://uzore.github.io/chamber/index.html" />
-    <meta property="og:type"               content="website" />
+    <meta property="og:url"                content="https://uzore.github.io/chamber/index.html/" />
     <meta property="og:title"              content="Abuja Chamber of Commerce International" />
     <meta property="og:description"        content="Abuja Chamber of Commerce, a link to the business in the capital of Nigeria" />
-    <meta property="og:image"              content="images/logo.png" />
+    <meta property="og:image"              content="https://uzore.github.io/chamber/index.html/chamber/images/joe.jpg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
-    <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Onest:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/normalize.css">
 
-	<link href="images/ico.png" rel="icon">
+    <link href="images/ico.png" rel="icon">
 
-    <title> ACCI | Join Us </title>
+
+    <title> Abuja Chamber of Commerce </title>
 </head>
 
-    <body class="logged-in env-production page-responsive" style="word-wrap: break-word;" data-new-gr-c-s-loaded="14.1062.0> 
-        <div id=" content ">
-            <header>
-                <a id="logo link " href="index.html ">
-                <img class="logo " src="images/logo.png " alt=" Logo " >
-                <nav class="navigation">
-                        <a id="menu" href="#"></a></li>
-                        <a href="index.html">HOME</a></li>
-                        <a href="discovery.html">DISCOVERY</a>
-                        <a href="chamber-site-plan.html ">Site Plan</a>
-                        <a href="dir.html ">DIRECTORY</a>
-                        <a href="join.html"> JOIN </a>
-                </nav>
-            </header>
-          </div>
+<body class="logged-in env-production page-responsive" style="word-wrap: break-word;" data-new-gr-c-s-loaded="14.1062.0> 
+    <div id="content">
+
+        <div class="banner">
+            ...Always Open to Business!!
         </div>
-      
+        <header>
+            <a id="logo link " href="index.html ">
+                <img class="logo " src="images/logo.png " alt=" Logo ">
+        </header>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html" class="active"> Home </a></li>
+                <li><a href="discover.html"> Discovery </a></li>
+                <li><a href="chamber-site-plan.html "> Site Plan </a></li>
+                <li><a href="dir.html "> Directory </a></li>
+                <li><a href="join.html"><button>JOIN</button></a></li>
+            </ul>
+            <div id="hamburger-icon" onClick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="index.html" class="active"> Home </a></li>
+                    <li><a href="discover.html"> Discovery </a></li>
+                    <li><a href="chamber-site-plan.html"> Site Plan</a></li>
+                    <li><a href="dir.html"> Directory </a></li>
+                    <li><a href="join.html"><button> SIGN IN </button></a></li>
+                </ul>
+            </div>
+        </nav>
 
-
-    <div id = " feedback ">
-
-    </div>  
-     <!-- <form action="/my-handling-form-page " method="post ">
-        <ul>
-         <li>
-           <label for="name ">First Name:</label>
-           <input type="text " id="name " name="user_name " />
-         </li>
-         <li>
-            <label for="name ">Last Name:</label>
-            <input type="text " id="name " name="user_name " />
-          </li>
-
-         <li>
-           <label for="mail ">Business Name</label>
-           <input type="email " id="mail " name="user_email " />
-         </li>
-         <li>
-           <label for="msg ">Tell us about your business:</label>
-           <textarea id="msg " name="user_message "></textarea>
-         </li>
-         <li> -->
-         <form method="post">
+        <m>
+          <h2>Create Account</h2>
+          <form method="get" action="thankyou.html">
             <fieldset>
-               <br/>
-               <input type="text" name="username" id="username" placeholder="Full Name" required autofocus>
-               <br/><br/>
-               <input type="text" name="Title" id="text" placeholder="Title" required>
-               <br/><br/>
-               <input type="email" name="E-mail" id="email" placeholder="E-mail" required>
-               <br/><br/>
-               <input type="text" name="text" id="confirm-password" placeholder="Phone Number" required>
-               <br
-               <input for="country ">Membership Level</input>
-                 <select id="country " name="country ">
-                    <option value="australia ">NP Membership [For Non-Profit Organizations]</option>
-                    <option value="bm ">Bronze Membership</option>
-                    <option value="sm ">Silver Membership</option>
-                    <option value="gm ">Gold Membership</option>
-                    <option value="none "></option>
-                 </select>
-
-                 
-             <!-- <li class=" button ">
-                    <button type=" submit "> Send Your Message </button>
-             </li> -->
-              <br><br><br><br><br>
-                <label for="msg ">Message:</label>
-                <textarea id="msg " name="user_message "></textarea>
-
-              <label for="submit"></label>
-               <a href="thankyou.html"><input type="submit" name="submit" id="submit" value="REGISTER"></a>
+                <legend> Personal Details</legend>
+                  <label class="top" for="fanme">First Name* <input type="text" id="fname" name="fname" required></label>
+                  <label class="top" for="lanme">Last Name* <input type="text" id="lname" name="lname" required></label>
+                  <label class="top" for="position">Position* <input type="text" id="position" name="position" required minlength="7" pattern="[a-zA-Z\-\s]+" title="Position name must be at least 7 characters long and alphanumeric"></label>
+                  <label class="top" for="email">Email* <input type="email" id="ëmail" name="email" required placeholder="john@domain.com"></label>
+                  <label class="top" for="tel">Phone <input type="tel" name="phone" id="tel" placeholder="+2348022224443"></label>
+                  <label class="top" for="oname">Organization Name* <input type="text" id="oname" name="oname" required></label>
             </fieldset>
+            <fieldset>
+                <legend>Membership</legend>
+                  <div><i>Membership Level: Hover on the click stuff to view description of each membership </i></div>
+                  <label class="sbs"><input type="radio" name="audience" value="np" title="Membership is free but gives limited access"> Non-Profit Membership</label>
+                  <label class="sbs"><input type="radio" name="audience" value="bronze" title="Membership costs $80 per year and gives limited access to special events only"> Bronze Membership</label>
+                  <label class="sbs"><input type="radio" name="audience" value="silver" title="Membership costs $150 per year and gives unlimited access to special events and trainings only"> Silver Membership</label>
+                  <label class="sbs"><input type="radio" name="audience" value="gold"title="Membership costs $250 per year and gives unlimited access to special events, trainings and advert spaces"> Gold Membership</label>
+            </fieldset>
+            <fieldset>
+                    <label class="textarea" for="textarea">Message <input type="text" id="textarea" name="textarea" ></label>
+            </fieldset>
+              <input type="submit" value="Create Account" class="submitBtn">
           </form>
-      </div>
-                <h6>
-                    <P> Copyright &copy;
+        </m>
+
+        <br>
+        <br>
+
+        <footer>
+            <br>
+            <P>
+                &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> Abuja Chamber of Commerce <br>KM 8 Umaru Musa Yar'Adua Road, Abuja Nigeria
+            </P>
+
+            <div class="social ">
+                <a href="https://twitter.com "><img src="images/twitter.png " alt="twitter icon "> </a>
+                <a href="https://instagram.com "><img src="images/insta.png " alt="instagram icon "> </a>
+                <p>.:|:. Joseph .N.O .:|:.
+                <p id="demo">
+                    Last Modified:
                     <script>
-                        document.write(new Date().getFullYear());
-                    </script> ABUJA CHAMBER OF COMMERCE</h3>
-                
-                </h6>
-      </footer>
-            <script src="scripts/main.js"></script>
-            <script src="scripts/dk.js"></script>
-            <script src="scripts/form.js"
-  </body>
+                        const date = new Date(document.lastModified);
+                        document.getElementById("demo").innerHTML = date;
+                    </script>
+                </p>
+            </div>
+        </footer>
+        <script src="scripts/main.js"></script>
+        <script src="scripts/form.js"></script>
+</body>
+</body>
+
 </html>

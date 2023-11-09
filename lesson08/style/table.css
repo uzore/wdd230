@@ -1,0 +1,56 @@
+    @import url('https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap');
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        font-family: Onest, Courier New, Good Vibes monospace, Arial, sans-serif;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 70%;
+        height: 25%;
+        background-color: black;
+        text-align: center;
+      }
+      
+      th, td {
+        border: 1px solid rgb(158, 154, 154);
+        padding: 5px;
+      }
+            
+      th {
+        background-color: #635a5a;
+        text-align: center;
+        padding: 15px;
+        font-style: bold;
+        color: white;
+        border-top: none;
+      }
+      th:nth-child(1) {
+        background-color: black;
+        border: none;
+      }
+      
+      tbody tr:nth-child(even) {
+        background-color: #eee;
+      }
+      
+      tbody tr:nth-child(odd) {
+        background-color: #fff;
+      }
+      
+      caption {
+        text-align: center;
+        font-size: 1.2em;
+        background-color: black;
+        width: 95%;
+        color: white;
+        padding: 10px;
+      }
