@@ -86,10 +86,7 @@
     }
     form{
         margin: 0 auto;
-        width: 400px;
-        border: 1px solid  #00021A;
-        padding-left: 15px;
-        padding-right: 15px;
+        width: 380px;
         border-radius: 10px;
     }
     form fieldset {
@@ -345,11 +342,6 @@
         min-height: 20rem;
     }
 
-    /* m p{ */
-        /* text-align: center; */
-        /* margin-bottom: 32%; */
-        /* margin-top: 20px; */
-    /* } */
     m p{
         text-align: center;
         margin-bottom: 85%;
