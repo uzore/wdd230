@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\chamber",
     "\\chamber\\scripts",
+    "\\data",
     "\\style"
   ],
-  "SelectedNode": "\\style\\style.css",
+  "SelectedNode": "\\data\\links.json",
   "PreviewInSolutionExplorer": false
 }
