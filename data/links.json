@@ -24,7 +24,7 @@
                 },
                 {
                     "url":"lesson02/design-principles.html",
-                    "title": "Holy Grail"
+                    "title": "Design Principles"
                 }
             ]
         },
@@ -32,7 +32,7 @@
             "lessons": "03",
             "links": [
                 {
-                    "url":"lesson03/combinator.html",
+                    "url":"lesson03/combinators.html",
                     "title": "Combinator"
                 },
                 {

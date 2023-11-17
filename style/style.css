@@ -138,17 +138,6 @@
         color: yellow;
     }
     
-    /* input, */
-    /* textarea { */
-        /* /* To make sure that all text fields have the same font settings */
-       /* By default, textareas have a monospace font */ */
-        /* font: 0.7em sans-serif; */
-        /* Uniform text field size */
-        /* width: 300px; */
-        /* box-sizing: border-box; */
-        /* Match form field borders */
-        /* border: 1px solid #999; */
-    /* } */
     /*  */
     input:focus,
     textarea:focus {
