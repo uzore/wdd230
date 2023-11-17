@@ -59,6 +59,10 @@
         transform: scale(1.1);
         transition: 0.3s;
     }
+    a:hover {
+        background-color: #0892b4;
+        color: black;
+    }     
 
     section a{
         color: blue;
@@ -66,7 +70,7 @@
     #rivers-cards{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 5px;
+        gap: 10px;
         max-width: 100%;
         padding: 5px;
     }
@@ -119,9 +123,16 @@
         color: rgb(241, 244, 245);
     }
 
+    h4 {
+        margin: 0;
+        color: white;
+        padding: 10px;
+        Background-color: #0892b4;
+    }
     h2 {
         margin: 0;
-        color: #000000
+        color: white;
+        Background-color: black;
     }
     
     h3 {
@@ -139,10 +150,10 @@
     }
     
     @media screen and (max-width: 600px) {
-        #hero,
-        main {
+        #rivers-cards{
             display: block;
             height: auto;
+            margin: 10px;
         }
 
         #hamburger-icon{
@@ -156,7 +167,7 @@
             height: 3px;
             background-color: black;
             margin: 6px 0;
-            transition: 0.4;
+            transition: 0.4s;
             width: 30px;
         }
         .open .bar1 {
