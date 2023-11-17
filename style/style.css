@@ -93,16 +93,6 @@
         font-size: 2rem;
         font-family: "Great Vibes", serif;
     }
-    form {
-        /* Center the form on the page */
-        margin: 0 auto;
-        width: 300px;
-        /* Form outline */
-        padding: 1em;
-        border-radius: 1em;
-        margin: 1rem;
-        border: 1px solid #0892b4;
-    }
     
     section ul{
         display: block;
@@ -138,19 +128,6 @@
         color: yellow;
     }
     
-    /*  */
-    input:focus,
-    textarea:focus {
-        /* Additional highlight for focused elements */
-        border-color: #000;
-    }
-    
-    textarea {
-        /* Align multiline text fields with their labels */
-        vertical-align: left;
-        /* Provide space to type some text */
-        height: 5em;
-    }    
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
