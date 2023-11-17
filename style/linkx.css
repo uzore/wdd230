@@ -129,46 +129,8 @@
         color: yellow;
     }
     
-    m {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    }
-    
-    .rivers-card {
-        grid-column: 2/8;
-        grid-row: 1/7;
-        margin-right: 0px;
-        border-radius: 5px;
-        padding: 0px;
-        background-color: rgba(252, 248, 248, 1.00);
-        border: 0.2px solid rgb(0, 0, 0);
-    }
-    
-    .camping-card {
-        grid-column: 8/11;
-        grid-row: 1/7;
-        margin: 0px;
-        border-radius: 5px;
-        background-color: rgba(252, 248, 248, 1.00);
-        border: 0.2px solid rgb(0, 0, 0);
-    }
-
-    .card-img:hover {
-        opacity: .6;
-        transform: scale(1.1)
-    }
     
 
-    
-    .married-card,
-    .rocki-card,
-    .palmvakk-card,
-    .rivers-card,
-    .camping-card,
-    .rapids-card {
-        margin: 0px;
-        font-size: 15px;
-    }
     
     footer {
         margin-top: 3px;
@@ -278,20 +240,7 @@
         a:hover {
             background-color:  #0892b4;
         }
-
-        main {
-            max-width: 100%;
-            margin: 0 auto;
-        }
-        #hero {
-            margin-top: 0;
-        }
-        #hero-msg {
-            margin-top: 0;
-        }
-        #hero-msg h4 {
-            display: none;
-        }
+        
         footer {
             padding: 10px;
             flex-direction: column;

@@ -1,65 +1,77 @@
 {
-    {
-        "companyName": "JeansTravel by Jeansvon Investments Limited",
-        "homeTown": "Abuja City",
-        "Address": "Airport road Iddo Sarki Abuja",
-        "Phone number": ["+234-80600-0650"]
-        "websiteURL": "https://uzore.github.io/wdd130/jeanstravel/home.html",
-        "membership level": "gold"
-    }
-
-    {
-        "companyName": "Novare Lugbe Shopping Cent56",
-        "homeTown": "Abuja City",
-        "Address": "Airport road Iddo Sarki Abuja",
-        "Phone number": ["+234-90600-0650"]
-        "websiteURL": "https://novare-central.com,"
-        "membershiplevel": "gold"
-    }
-
-    {
-        "companyName": "MagicLand Recreational Centre",
-        "homeTown": "Abuja City",
-        "Address": "Airport road Iddo Sarki Abuja",
-        "Phone number": ["+234-80600-0678"]
-        "websiteURL": "https://https:www.tripadvisor.com/Attraction_Review-g293825-d17388735-Reviews-Magicland_Amusement_Park-Abuja_Federal_Capital_Territory.html ",
-        "membership level": "gold"
-    }
-
-    {
-        "comapnyName": "Cosqrove Africa Estate",
-        "homeTown": "Abuja City",
-        "Address": "Airport road Iddo Sarki Abuja",
-        "Phone number": ["+234-80600-0650"]
-        "websiteURL": "https://cosgroveafrica.com/",
-        "membership level": "bronze"
-    }
-
-    {
-        "companyName": "Abuja National Stadium",
-        "homeTown": "Abuja City",
-        "Address": "Central Area Garki, Abuja",
-        "Phone number": ["+234-80600-0650"]
-        "websiteURL": "https://en.wikipedia.org/wiki/Abuja",
-        "membership level": "silver"
-    }
-
-    {
-        "companyName": "ABuja National Parker",
-        "homeTown": "Abuja City",
-        "Address": "Central Area Julius Berger, Abuja",
-        "Phone number": ["+234-80600-0650"]
-        "websiteURL": "https://julius-berger.com
-        "membership level": "silver"
-    }
-
-    {
-        "companyName": "Abuja Continental Hotel",
-        "homeTown": "Abuja City",
-        "Address": "Central Area Garki, Abuja",
-        "Phone number": ["+234-80600-0650"],
-        "websiteURL": "https://abujacontinental.com",
-        "membership level": "gold"
-    }
-
+    "companies": [
+      {
+        "id": 1,
+        "name": "eKlothe Corporation",
+        "address": "123 Main St, Cityville, Abuja",
+        "phone": "555-1234",
+        "website": "http://www.abc-corp.com",
+        "image": "images/ek.webp",
+        "membership_level": "Gold"
+      },
+      {
+        "id": 2,
+        "name": "XYZ Ltd.",
+        "address": "456 Oak St, Townsville, Abuja",
+        "phone": "555-5678",
+        "website": "http://www.xyz-ltd.com",
+        "image": "images/d.webp",
+        "membership_level": "Silver"
+      },
+      {
+        "id": 3,
+        "name": "Tech Innovators Inc.",
+        "address": "789 Pine St, Tech City, Abuja",
+        "phone": "555-9876",
+        "website": "http://www.tech-innovators.com",
+        "image": "images/e.webp",
+        "membership_level": "Platinum"
+      },
+      {
+        "id": 4,
+        "name": "Global Solutions Co.",
+        "address": "321 Elm St, Global Town, Abuja",
+        "phone": "555-5432",
+        "website": "http://www.global-solutions.com",
+        "image": "images/c.webp",
+        "membership_level": "Gold"
+      },
+      {
+        "id": 5,
+        "name": "Innovate Tech Group",
+        "address": "567 Birch St, Innovation City, Abuja",
+        "phone": "555-8765",
+        "website": "http://www.innovate-tech-group.com",
+        "image": "images/q.webp",
+        "membership_level": "Silver"
+      },
+      {
+        "id": 6,
+        "name": "Smart Solutions Ltd.",
+        "address": "876 Maple St, Smartville, Abuja",
+        "phone": "555-2345",
+        "website": "http://www.smart-solutions-ltd.com",
+        "image": "images/f.webp",
+        "membership_level": "Platinum"
+      },
+      {
+        "id": 7,
+        "name": "EcoFriendly Innovations",
+        "address": "234 Cedar St, Eco City, Abuja",
+        "phone": "555-6543",
+        "website": "http://www.eco-friendly-innovations.com",
+        "image": "images/a.webp",
+        "membership_level": "Gold"
+      },
+      {
+        "id": 8,
+        "name": "Future Tech Enterprises",
+        "address": "789 Redwood St, Future City, Abuja",
+        "phone": "555-7654",
+        "website": "http://www.future-tech-enterprises.com",
+        "image": "images/b.webp",
+        "membership_level": "Silver"
+      }
+    ]
 }
+  
