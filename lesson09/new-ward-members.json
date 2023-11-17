@@ -1,0 +1,99 @@
+{
+    "ward_members": [
+        {
+            "family_name": "Nnachi",
+            "move_in_date": "2023-06-16",
+            "family_size": 5,
+            "visited_by_bishopric": true,
+            "family_members": 
+            [
+                {
+                    "name": "Chris Nnachi",
+                    "gender": "Male",
+                    "birth_date": "1980-05-15"
+                },
+                {
+                    "name": "Fidel Nnachi",
+                    "gender": "female",
+                    "birth_date": "1987-05-15"
+                },
+
+                {
+                    "name": "Vikk Nnachi",
+                    "gender": "Male",
+                    "birth_date": "1990-05-15"
+                },
+
+                {
+                    "name": "Sam Nnachi",
+                    "gender": "Male",
+                    "birth_date": "1995-05-15"
+                },
+
+                {
+                    "name": "Gloria Nnachi",
+                    "gender": "Female",
+                    "birth_date": "1990-05-15"
+                }
+                
+            ]
+        },
+        
+        {
+            "family_name": "Okah",
+            "move_in_date": "2020-06-16",
+            "family_size": 5,
+            "visited_by_bishopric": true,
+            "family_members": [
+                {
+                    "name": "Dan Okah",
+                    "gender": "Male",
+                    "birth_date": "1967-05-15"
+                },
+                {
+                    "name": "Rose Okah",
+                    "gender": "Female",
+                    "birth_date": "1970-05-15"
+                },
+                {
+                    "name": "Augustine Okah",
+                    "gender": "Male",
+                    "birth_date": "1989-05-15"
+                },
+                {
+                    "name": "Ogechi Okah",
+                    "gender": "Male",
+                    "birth_date": "1988-05-15"
+                },
+                {
+                    "name": "Joy Okah",
+                    "gender": "Male",
+                    "birth_date": "1990-05-15"
+                }
+
+            ]
+        },
+        {
+            "family_name": "Usende",
+            "move_in_date": "2021-06-16",
+            "family_size": 2,
+            "visited_by_bishopric": false,
+            "family_members": [
+                {
+                    "name": "John Usende",
+                    "gender": "Male",
+                    "birthdate": "1980-05-15"
+                },
+                {
+                    "name": "Helen Usende",
+                    "gender": "Female",
+                    "birthdate": "1987-05-15"
+                }
+            ]
+        }
+    
+
+
+    ]
+
+}
