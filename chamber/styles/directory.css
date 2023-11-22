@@ -12,17 +12,10 @@
         max-width: 100%;
         margin: 0 auto;
     }
-    .banner {
-        display: grid;
-        text-align: center;
-        color: #CDA204;
-        background-color: #00021A;
-        padding: 10px;
-    }
     
     .g {
         position: absolute;
-        top: 3.5rem;
+        top: 2rem;
         right: 3rem;
         font-size: 1rem;
     }
@@ -36,7 +29,7 @@
 
     #mode {
         position: absolute;
-        top: 3.5rem;
+        top: 2rem;
         right: 1rem;
         font-size: 1rem;
         cursor: pointer;
@@ -486,7 +479,7 @@
     
     #mode {
         position: absolute;
-        top: 3.5rem;
+        top: 2rem;
         right: 1rem;
         font-size: 1rem;
         cursor: pointer;
@@ -644,7 +637,7 @@
 
     #mode {
         position: absolute;
-        top: 3.5rem;
+        top: 2rem;
         right: 1rem;
         font-size: 1rem;
         cursor: pointer;

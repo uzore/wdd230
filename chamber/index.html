@@ -26,9 +26,11 @@
 <body class="logged-in env-production page-responsive" style="word-wrap: break-word;" data-new-gr-c-s-loaded="14.1062.0> 
     <div id="content">
 
-        <div class="banner">
-            ...Always Open to Business!!
+        <div id="banner">
+            <p>Join us for the Chamber of Commerce meet and greet on Wednesday at 7pm!</p>
+            <span id="closeButton" onclick="closeBanner()">X</span>
         </div>
+          
         <header>
             <a id="logo link " href="index.html ">
                 <img class="logo " src="images/logo.png " alt=" Logo ">
@@ -36,7 +38,7 @@
         <nav id="menu">
             <ul>
                 <li><a href="index.html" class="active"> Home </a></li>
-                <li><a href="discover.html"> Discovery </a></li>
+                <li><a href="discovery.html"> Discovery </a></li>
                 <li><a href="chamber-site-plan.html "> Site Plan </a></li>
                 <li><a href="directory.html "> Directory </a></li>
                 <li><a href="join.html"><button>JOIN</button></a></li>
@@ -47,7 +49,7 @@
                 <div class="bar3"></div>
                 <ul class="mobile-menu">
                     <li><a href="index.html" class="active"> Home </a></li>
-                    <li><a href="discover.html"> Discovery </a></li>
+                    <li><a href="discovery.html"> Discovery </a></li>
                     <li><a href="chamber-site-plan.html"> Site Plan</a></li>
                     <li><a href="directory.html"> Directory </a></li>
                     <li><a href="join.html"><button> JOIN </button></a></li>
@@ -89,9 +91,11 @@
             <br>
             <section class="b-card ">
                 <h3><b>  Weather in Abuja, Nigeria  </b></h3>
-                <p><a href="https://www.timeanddate.com/time/zones/wat "> Click to view weather in Abuja, Nigeria</a></p>
+                <div class="weather" id="weatherData"></div>
                 <br>
-                <p><span class="label "> Page Visits:  </span> <span class="visits "></span></p>
+                <div class ="forecastData"></div>
+                <br>
+                <p><span class="label ">Page Visits:  </span> <span class="visits"></span></p>
                 <br>
             </section>
         </main1>

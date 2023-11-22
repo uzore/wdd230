@@ -12,12 +12,21 @@
         max-width: 100%;
         margin: 0 auto;
     }
-    .banner {
-        display: grid;
-        text-align: center;
-        color: #CDA204;
+
+    #banner {
+        display: none;
+        padding: 4px;
         background-color: #00021A;
-        padding: 10px;
+        color: #CDA204;
+        text-align: center;
+    }
+
+    #closeButton {
+        position: absolute;
+        top: 0.2rem;
+        right: 0.3rem;
+        font-size: 1rem;
+        cursor: pointer;
     }
     
     .g {
