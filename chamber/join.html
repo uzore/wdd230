@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alice&family=Onest:wght@200;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/table.css">
     <link rel="stylesheet" href="styles/normalize.css">
 
     <link href="images/ico.png" rel="icon">
@@ -49,7 +50,7 @@
                     <li><a href="discovery.html"> Discovery </a></li>
                     <li><a href="chamber-site-plan.html"> Site Plan</a></li>
                     <li><a href="directory.html"> Directory </a></li>
-                    <li><a href="join.html"><button> SIGN IN </button></a></li>
+                    <li><a href="join.html"><button> JOIN </button></a></li>
                 </ul>
             </div>
         </nav>
@@ -68,15 +69,55 @@
             </fieldset>
             <fieldset>
                 <legend>Membership</legend>
-                  <div><i>Membership Level: Hover on the click stuff to view description of each membership </i></div>
-                  <label class="sbs"><input type="radio" name="audience" value="np" title="Membership is free but gives limited access"> Non-Profit Membership</label>
-                  <label class="sbs"><input type="radio" name="audience" value="bronze" title="Membership costs $80 per year and gives limited access to special events only"> Bronze Membership</label>
-                  <label class="sbs"><input type="radio" name="audience" value="silver" title="Membership costs $150 per year and gives unlimited access to special events and trainings only"> Silver Membership</label>
-                  <label class="sbs"><input type="radio" name="audience" value="gold"title="Membership costs $250 per year and gives unlimited access to special events, trainings and advert spaces"> Gold Membership</label>
-            </fieldset>
-            <fieldset>
-                    <label class="textarea" for="textarea">Message <input type="text" id="textarea" name="textarea" ></label>
-            </fieldset>
+                  <label class="sbs"><input type="radio" name="audience" value="np"> Non-Profit Membership</label>
+                  <label class="sbs"><input type="radio" name="audience" value="bronze"> Bronze Membership</label>
+                  <label class="sbs"><input type="radio" name="audience" value="silver"> Silver Membership</label>
+                  <label class="sbs"><input type="radio" name="audience" value="gold"> Gold Membership</label>
+            
+                  <table>
+                    <caption>Membership Level Benefits
+                    </caption>
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>Non-Profit[0/yr]</th>
+                        <th>Bronze[$80/yr]</th>
+                        <th>Silver[$150/yr]</th>
+                        <th>Gold[$250/yr]</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td><b>Access to Directory</b></td>
+                      <td>✔️</td>
+                      <td>✔️</td>
+                      <td>✔️</td>
+                      <td>✔️</td>
+                    </tr>
+                      <tr>
+                        <td><b>Special Events</b></td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                      </tr>
+                      <tr>
+                        <td><b>Special Events and Training</b></td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                      </tr>
+                      <tr>
+                        <td><b>Special Events, Training, Advert Spaces</b></td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                      </tr>  
+                    </tbody>
+                  </table>
+                </fieldset>
               <input type="submit" value="Create Account" class="submitBtn">
           </form>
         </m>

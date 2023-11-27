@@ -1,10 +1,8 @@
-    @import url('https://fonts.googleapis.com/css2?family=Alice&family=Onest:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap');
     body {
         max-width: 1600px;
         color:  #00021A;;
-        font-family: 'Alice', 'Onest', Courier New, monospace, Arial, sans-serif;
-        font: size 12px;
-        margin: 5px;
+        font-family: 'Onest', Courier New, monospace, Arial, sans-serif;
     }
     
     #content {
