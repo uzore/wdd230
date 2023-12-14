@@ -4,7 +4,7 @@
         "id": 1,
         "name": "Honda Metro Scooter",
         "type": "[1persons]",
-        "website": "https://uzore.github.io/wdd230/scoots/reservation.html",
+        "website": "<a href='reservation.html'>Book</a>",
         "image": "images/a.webp",
         "price": "[R(3hrs)-$20, R(full-day)-$30][W(3hrs)-$25, W(full-day-$35]"
       },
