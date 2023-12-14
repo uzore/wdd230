@@ -1,0 +1,417 @@
+@import "https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap";
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+text-align:center;
+color: #CDA204;
+font-family:'Onest',Courier New,monospace,Arial,sans-serif
+}
+
+#banner {
+display:none;
+padding:4px;
+background-color: black;
+color: #CDA204;
+text-align:center
+}
+header a {
+    color: white;
+}
+    
+#cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    max-width: 100%;
+    padding: 2px;
+}
+
+.hero-btn {
+    display:inline-block;
+    text-decoration:none;
+    color:#CDA204;
+    border:2px solid #CDA204;
+    padding:12px 34px;
+    background:transparent;
+    position:relative;
+    cursor:pointer
+}   
+
+a{
+    color: black;
+    text-decoration: none;
+}
+    
+.hero-btn:hover {
+    border:1px solid #060310;
+    background:black;
+    transition:1s ease
+}
+
+.home-btn {
+    position:absolute;
+    top:35%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:inline-block;
+    text-decoration:none;
+    border:2px solid #CDA204;;
+    padding:10px 40px;
+    background:#CDA204;
+    cursor:pointer
+}
+    
+.home-btn:hover {
+    border:2px solid #CDA204;
+    background: transparent;
+    transition:.6s ease;
+    color: #CDA204;
+    border-radius: 10px;
+}
+#closeButton {
+position:absolute;
+top:.2rem;
+right:.3rem;
+font-size:1rem;
+cursor:pointer
+}
+
+.g {
+position:absolute;
+top:3.5rem;
+right:3rem;
+font-size:1rem
+}
+
+.g button {
+border:none;
+padding:2px 10px;
+background-color:black;
+color:#CDA204;
+border-radius:4px
+}
+
+#menu li a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+
+
+#mode {
+position:absolute;
+top:3.5rem;
+right:1rem;
+font-size:1rem;
+cursor:pointer;
+}
+
+maine {
+max-width:670px;
+margin:0 auto;
+}
+
+.hero {
+margin:10px auto;
+position:relative;
+border:1px solid #0000001a;
+}
+
+.hero img {
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+
+
+nav ul {
+display:flex;
+background: black;
+text-align:center;
+color: #CDA204;
+padding:10px;
+justify-content:space-around;
+transition:.5s;
+}
+
+.mobile-menu {
+display:none;
+}
+
+#menu li a:hover {
+color:#CDA204;
+background-color:black;
+transform:scale(1.1);
+transition:.3s;
+text-decoration:none;
+}
+
+header{
+display:grid;
+padding:.8%;
+grid-template-columns:100px auto;
+}
+
+
+.moveDown {
+margin-top:3em
+}
+
+ul {
+list-style:none;
+padding:0;
+margin:0;
+text-decoration-line:none
+}
+
+button {
+color: #CDA204;
+padding: 3px 1px;
+border: 2px solid #CDA204;
+background-color: black;
+}
+
+button:hover{
+ border-radius: 9px;
+}
+
+.active {
+    
+    border-bottom: 2px solid #CDA204;
+}
+.social img {
+    height:25px;
+    margin:10px;
+    cursor:pointer;
+    padding-top:15px
+}
+    
+.social {
+    text-align:center
+}
+    
+
+@media all and (max-width: 500px) {
+#container {
+margin-top:10%;
+margin-bottom:10%
+}
+}
+
+@media all and (min-width: 500px) and (max-width: 580px) {
+#container {
+margin-top:5%;
+margin-bottom:5%
+}
+}
+
+iframe {
+width:100%;
+height:100%
+}
+
+h3 {
+background-color:black;
+color:#CDA204;
+padding:10px;
+justify-content:center;
+align-items:center
+}
+
+.visits {
+color:#CDA204;
+font-weight:bolder;
+font-size:larger
+}
+
+.card-img,.mountains {
+width:100%
+}
+
+.logo {
+width:80%;
+overflow:hidden;
+text-align:center
+}
+
+#logo_link {
+padding-top:5px;
+align-self:center;
+justify-self:center
+}
+
+#mode {
+position:absolute;
+top:3.5rem;
+right:1rem;
+font-size:1rem;
+cursor:pointer
+}
+
+.card-img {
+text-align:center;
+transition:transform .2s;
+box-shadow:1px 1px 1px black;
+}
+
+.card-img:hover {
+opacity:.6;
+transform:scale(1.1);
+}
+
+main section img {
+box-sizing:border-box
+}
+
+.icon {
+width:60px;
+padding-top:5px;
+font-size:12px
+}
+
+section {
+background-color:#fff;
+border:1px solid white;
+padding:2px;
+margin:5px;
+box-shadow:0 0 30px black;
+border-radius:5px;
+}
+
+img {
+margin-top:5px
+}
+
+.married-card,.rocki-card,.palmvakk-card,.rivers-card,.camping-card,.rapids-card {
+margin:5px;
+font-size:12px;
+border-radius:4px
+}
+
+footer {
+margin-top:2px;
+background-color:black;
+padding:2px;
+display:column;
+justify-content:space-around;
+align-items:center;
+color:#CDA204;
+font-size:12px;
+}
+
+footer h3 {
+color:#CDA204
+}
+
+footer a {
+color:black
+}
+
+footer a:hover {
+color:#CDA204
+}
+
+h2 {
+margin:0;
+color:#CDA204
+}
+
+h3 {
+color:#CDA204
+}
+@media screen and (max-width: 680px) {
+    #cards {
+display:block;
+height:auto
+}
+
+.list section img {
+display:none
+}
+
+#hamburger-icon {
+display:block;
+cursor:pointer;
+color: black;
+}
+
+.open .bar1 {
+transform:rotate(-45deg) translate(-6px,6px)
+}
+
+.open .bar2 {
+opacity:0
+}
+
+.open .bar3 {
+transform:rotate(45deg) translate(-6px,-8px)
+}
+
+.open .mobile-menu {
+display:flex;
+flex-direction: column;
+text-align:center;
+transition:.5s;
+margin: 5px;
+}
+
+#hamburger-icon div {
+width:35px;
+height:3px;
+background-color: black;
+margin:6px 0;
+transition:.4;
+}
+
+nav ul {
+display:none;
+}
+
+#mode {
+position:absolute;
+top:3.5rem;
+right:1rem;
+font-size:1rem;
+cursor:pointer
+}
+
+.married-card,.rocki-card,.palmvakk-card,.rivers-card,.camping-card,.rapids-card {
+margin:5px auto;
+max-width:400px
+}
+
+.home-btn {
+position:absolute;
+top:35%;
+left:50%;
+transform:translate(-50%,-50%);
+display:inline-block;
+text-decoration:none;
+color:#CDA204;
+border:2px solid #CDA204;
+padding:8px 16px;
+background:transparent;
+cursor:pointer
+}
+
+a:hover {
+color: #CDA204;
+}
+
+.home-btn:hover {
+border:1px solid black;
+background:black;
+transition:1s ease;
+color:#CDA204
+}
+
+footer {
+margin-top:5px;
+padding: 10px;
+flex-direction: column;
+}
+}

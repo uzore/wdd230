@@ -1,0 +1,53 @@
+{
+    "companies": [
+      {
+        "id": 1,
+        "name": "Honda Metro Scooter",
+        "type": "[1persons]",
+        "website": "https://uzore.github.io/wdd230/scoots/reservation.html",
+        "image": "images/a.webp",
+        "price": "[R(3hrs)-$20, R(full-day)-$30][W(3hrs)-$25, W(full-day-$35]"
+      },
+      {
+        "id": 2,
+        "name": "Honda Dio Scooter",
+        "type": "[2persons]",
+        "website": "https://uzore.github.io/wdd230/scoots/reservation.html",
+        "image": "images/b.webp",
+        "price": "[R(3hrs)-$30, R(full-day)-$40][W(3hrs)-$35, W(full-day-$45]"
+      },
+      {
+        "id": 3,
+        "name": "Honda PCX150 Scooter",
+        "type": "[2persons]",
+        "website": "https://uzore.github.io/wdd230/scoots/reservation.html",
+        "image": "images/c.webp",
+        "price": "[R(3hrs)-$40, R(full-day)-$50][W(3hrs)-$45, W(full-day-$55]"
+      },
+      {
+        "id": 4,
+        "name": "Honda Pioneer ATV",
+        "type": " [2persons]",
+        "website": "https://uzore.github.io/wdd230/scoots/reservation.html",
+        "image": "images/d.webp",
+        "price": "[R(3hrs)-$50, R(full-day)-$70][W(3hrs)-$60, W(full-day-$80]"
+      },
+      {
+        "id": 5,
+        "name": "Jeep Wrangler",
+        "type": "4-door [5persons]",
+        "website": "https://uzore.github.io/wdd230/scoots/reservation.html",
+        "image": "images/e.webp",
+        "price": "[R(3hrs)-$70, R(full-day)-$100][W(3hrs)-$85, W(full-day-$125]"
+      },
+      {
+        "id": 6,
+        "name": "Jeep Wrangler",
+        "type": "2-door [4persons]",
+        "website": "https://uzore.github.io/wdd230/scoots/reservation.html",
+        "image": "images/f.webp",
+        "price": "[R(3hrs)-$60, R(full-day)-$85][W(3hrs)-$70, W(full-day-$90]"
+      }
+    ]
+}
+  
