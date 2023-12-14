@@ -30,7 +30,7 @@ const displayCompanies = (companies) => {
     companyDiv.innerHTML = `
       <h4>${company.name}</h4>
       <p><strong>Rental Type:</strong> ${company.type}</p>
-      <p><strong>Book:</strong> <a href="${company.website}" target="_blank">${company.website}</a></p>
+      <p><strong></strong> <a href="${company.website}" target="_blank">${company.website}</a></p>
       <p><strong>Rental Price:</strong> ${company.price}</p>
       <hr>
     `;
